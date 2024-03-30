@@ -1,0 +1,13 @@
+<div class="counter">
+    <h1>Counter:<span [class]="{'red':red,
+        'green':green,
+        'black':black
+    }">{{count}}</span></h1>
+  
+    <button (click)="decrement()" class="dec button">Dec</button>
+    <button class="res button" (click)="reset()">Res</button>
+    <button class="inc button" (click)="increment()">Inc</button>
+    <br>
+    <br>
+   
+</div>
